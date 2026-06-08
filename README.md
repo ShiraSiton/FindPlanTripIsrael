@@ -73,7 +73,7 @@ Controller → Service → Repository → EF Core → SQL Server
 
 ```
 FindPlanTripIsrael/
-├── לקוח/                          # React Frontend
+├── client/                        # React Frontend
 │   ├── src/
 │   │   ├── auth/                  # Auth context, guards, utils
 │   │   ├── component/             # Reusable components
@@ -97,7 +97,7 @@ FindPlanTripIsrael/
 │   │   └── types/                 # TypeScript types
 │   └── ...
 │
-├── שרת/                           # .NET Backend
+├── server/                        # .NET Backend
 │   ├── ProjectTrips/              # Web API project
 │   │   ├── Controller/            # API controllers
 │   │   │   ├── AuthController.cs
@@ -137,7 +137,7 @@ FindPlanTripIsrael/
 - **SQL Server** (local or remote)
 
 ### 1️⃣ Database
-The connection string is configured in `שרת/ProjectTripsDB/Models/ProjectTripsDataBase.cs`. Update it to point to your SQL Server instance:
+The connection string is configured in `server/ProjectTripsDB/Models/ProjectTripsDataBase.cs`. Update it to point to your SQL Server instance:
 ```json
 Server=YOUR_SERVER;Database=MineProjectTripsDB;Trusted_Connection=True;TrustServerCertificate=True
 ```
@@ -146,14 +146,14 @@ Migrations run automatically on startup. Seed data (regions, types, admin user, 
 
 ### 2️⃣ Backend
 ```bash
-cd שרת/ProjectTrips/ProjectTrips
+cd server/ProjectTrips/ProjectTrips
 dotnet run --launch-profile https
 ```
 The API will be available at `https://localhost:7081` with Swagger at `/swagger`.
 
 ### 3️⃣ Frontend
 ```bash
-cd לקוח
+cd client
 npm install
 npm run dev
 ```
@@ -168,13 +168,14 @@ The app opens at `http://localhost:5173`.
 
 ## 📸 Screenshots
 
-> Add your screenshots here! Create a `screenshots/` folder in the root and reference them:
->
-> ```markdown
-> ![Home Page](screenshots/home.png)
-> ![Trip Planner](screenshots/planner.png)
-> ![Browse Trips](screenshots/browse.png)
-> ```
+| | |
+|---|---|
+| ![Home Page](screenshots/homePage1.png) | ![Home Page 2](screenshots/homePage2.png) |
+| ![Login](screenshots/login.png) | ![Register](screenshots/register.png) |
+| ![Browse Trips](screenshots/Travel%20page%20including%20search.png) | ![Route Planning](screenshots/Route%20planning.png) |
+| ![Planner Summary](screenshots/Summary%20of%20route%20planning%20features.png) | ![Adapted Route](screenshots/The%20adapted%20route.png) |
+| ![About 1](screenshots/about1.png) | ![About 2](screenshots/about2.png) |
+| ![Contact](screenshots/Contact%20page.png) | ![Dashboard](screenshots/צילום%20מסך%202026-06-08%20134731.png) |
 
 ---
 
@@ -202,9 +203,11 @@ The database includes **10 tables**: `Users`, `Places`, `Routes`, `RoutePoints`,
 
 ---
 
-## 👩‍💻 Author
+## 📊 Languages
 
-**Shira Siton** — Built as a personal project for learning full-stack development with modern technologies.
+![TypeScript](https://img.shields.io/badge/TypeScript-60.4%-3178C6?logo=typescript&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML-26.3%-E34F26?logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-13.3%-1572B6?logo=css3&logoColor=white)
 
 ---
 
