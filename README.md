@@ -211,9 +211,9 @@ The database includes **10 tables**: `Users`, `Places`, `Routes`, `RoutePoints`,
 
 ## 📊 Languages
 
-![💙 TypeScript](https://img.shields.io/badge/TypeScript-60.4%-3178C6?logo=typescript&logoColor=white)
-![🧡 HTML](https://img.shields.io/badge/HTML-26.3%-E34F26?logo=html5&logoColor=white)
-![💙 CSS](https://img.shields.io/badge/CSS-13.3%-1572B6?logo=css3&logoColor=white)
+![💙 TypeScript](https://img.shields.io/badge/TypeScript-60.4%-3178C6)
+![🧡 HTML](https://img.shields.io/badge/HTML-26.3%-E34F26)
+![💙 CSS](https://img.shields.io/badge/CSS-13.3%-1572B6)
 
 ---
 
