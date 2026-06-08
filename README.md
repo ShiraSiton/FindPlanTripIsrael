@@ -16,7 +16,9 @@
 
 **FindPlanTripIsrael** is a full-stack web application that lets users **browse, discover, and build custom day trips** across Israel. Whether you're looking for a curated route or want to craft your own adventure from scratch — this app has you covered.
 
-Built with a modern **React + TypeScript** frontend and a clean layered **ASP.NET Core 8** backend, it features JWT authentication, interactive trip planning, rich place & route browsing, reviews, ratings, and a fully responsive UI.
+The platform brings together **places, routes, and day trips** in one unified experience. Users can explore destinations filtered by region, type, difficulty, accessibility, and more; rate and review their experiences; and use the interactive **Trip Planner** to build a personalized itinerary with stops, travel modes, distances, and durations.
+
+Built with a modern **React + TypeScript** frontend and a clean layered **ASP.NET Core 8** backend, it features JWT authentication, interactive trip planning, rich place & route browsing, reviews, ratings, and a fully responsive UI. The backend follows a **Controller → Service → Repository** architecture with Entity Framework Core and SQL Server, ensuring clean separation of concerns and maintainability.
 
 ---
 
