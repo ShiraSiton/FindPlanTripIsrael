@@ -1,0 +1,35 @@
+# ─── .NET ───
+שרת/**/bin/
+שרת/**/obj/
+שרת/**/*.user
+שרת/**/*.suo
+שרת/**/.vs/
+שרת/**/appsettings.*.local.json
+
+# ─── Node ───
+לקוח/node_modules/
+לקוח/dist/
+לקוח/dist-ssr/
+לקוח/*.local
+
+# ─── Secrets ───
+*.env
+.env.local
+
+# ─── OS ───
+.DS_Store
+Thumbs.db
+
+# ─── IDE ───
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─── Uploaded Images (dev data) ───
+שרת/ProjectTrips/ProjectTrips/Images/
+
+# ─── Temp / Cache ───
+שרת/response_*.json
+שרת/~$*
+שרת/*.tmp
