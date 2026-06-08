@@ -168,14 +168,20 @@ The app opens at `http://localhost:5173`.
 
 ## 📸 Screenshots
 
-| | |
+| Screenshot | Description |
 |---|---|
-| ![Home Page](screenshots/homePage1.png) | ![Home Page 2](screenshots/homePage2.png) |
-| ![Login](screenshots/login.png) | ![Register](screenshots/register.png) |
-| ![Browse Trips](screenshots/Travel%20page%20including%20search.png) | ![Route Planning](screenshots/Route%20planning.png) |
-| ![Planner Summary](screenshots/Summary%20of%20route%20planning%20features.png) | ![Adapted Route](screenshots/The%20adapted%20route.png) |
-| ![About 1](screenshots/about1.png) | ![About 2](screenshots/about2.png) |
-| ![Contact](screenshots/Contact%20page.png) | ![Dashboard](screenshots/צילום%20מסך%202026-06-08%20134731.png) |
+| ![Home Page](screenshots/homePage1.png) | Home page – hero banner with search and featured trips |
+| ![Home Page 2](screenshots/homePage2.png) | Home page – popular routes and places sections |
+| ![Login](screenshots/login.png) | Login page – email & password form with validation |
+| ![Register](screenshots/register.png) | Registration page – sign-up form with field validation |
+| ![Browse Trips](screenshots/Travel%20page%20including%20search.png) | Browse trips – grid view with search bar and filters |
+| ![Route Planning](screenshots/Route%20planning.png) | Route planning – interactive wizard step |
+| ![Planner Summary](screenshots/Summary%20of%20route%20planning%20features.png) | Trip planner summary – overview of selected stops |
+| ![Adapted Route](screenshots/The%20adapted%20route.png) | Adapted route – final itinerary with map and directions |
+| ![About 1](screenshots/about1.png) | About page – app overview and mission statement |
+| ![About 2](screenshots/about2.png) | About page – team info and stats |
+| ![Contact](screenshots/Contact%20page.png) | Contact page – form and contact details |
+| ![Dashboard](screenshots/%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%9E%D7%A1%D7%9A%202026-06-08%20134731.png) | Personal dashboard – user profile, saved trips, and activity |
 
 ---
 
@@ -205,9 +211,9 @@ The database includes **10 tables**: `Users`, `Places`, `Routes`, `RoutePoints`,
 
 ## 📊 Languages
 
-![TypeScript](https://img.shields.io/badge/TypeScript-60.4%-3178C6?logo=typescript&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML-26.3%-E34F26?logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-13.3%-1572B6?logo=css3&logoColor=white)
+![💙 TypeScript](https://img.shields.io/badge/TypeScript-60.4%-3178C6?logo=typescript&logoColor=white)
+![🧡 HTML](https://img.shields.io/badge/HTML-26.3%-E34F26?logo=html5&logoColor=white)
+![💙 CSS](https://img.shields.io/badge/CSS-13.3%-1572B6?logo=css3&logoColor=white)
 
 ---
 
